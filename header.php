@@ -122,12 +122,12 @@ session_start();
 			<div id="top-header">
 				<div class="container">
 					<ul class="header-links pull-left">
-						<li><a href="#"><i class="fa fa-phone"></i> +91-9535688928</a></li>
-						<li><a href="#"><i class="fa fa-envelope-o"></i> puneethreddy951@gmail.com</a></li>
-						<li><a href="#"><i class="fa fa-map-marker"></i>Bangalore</a></li>
+						<li><a href="#"><i class="fa fa-phone"></i> +8801609221280</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> buddies@gmail.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i>Dhaka, Bangladesh</a></li>
 					</ul>
 					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
+						<li><a href="#"><i class="fa fa-usd"></i> BDT</a></li>
 						<li><?php
                              include "db.php";
                             if(isset($_SESSION["uid"])){
@@ -176,16 +176,19 @@ session_start();
 					<!-- row -->
 					<div class="row">
 						<!-- LOGO -->
-						<div class="col-md-3">
-							<div class="header-logo">
-								<a href="#" class="logo">
-								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
-                                        Online Shop
-                                    </font>
-									
-								</a>
-							</div>
-						</div>
+<div class="col-md-3">
+    <div class="header-logo">
+        <a href="#" class="logo" style="display: flex; align-items: center; text-decoration: none; padding-top: 5px;">
+            
+            <img src="img/diu.svg" alt="DIU Logo" style="height: 65px; margin-right: 15px;">
+            
+            <span style="font-style:normal; font-size: 33px; color: aliceblue; font-family: serif; white-space: nowrap;">
+                DIU <br>Online Shop
+            </span>
+            
+        </a>
+    </div>
+</div>
 						<!-- /LOGO -->
 
 						<!-- SEARCH BAR -->
@@ -209,7 +212,7 @@ session_start();
 							<div class="header-ctn">
 								<!-- Wishlist -->
 								<div>
-									<a href="https://github.com/puneethreddyhc">
+									<a href="https://github.com/2dvoid">
 										<i class="fa fa-github"></i>
 										<span>Github</span>
 										
