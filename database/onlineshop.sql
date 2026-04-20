@@ -219,7 +219,7 @@ CREATE TABLE `orders_info` (
 --
 
 INSERT INTO `orders_info` (`order_id`, `user_id`, `f_name`, `email`, `address`, `city`, `state`, `zip`, `cardname`, `cardnumber`, `expdate`, `prod_count`, `total_amt`, `cvv`) VALUES
-(1, 12, 'Puneeth', 'puneethreddy951@gmail.com', 'Bangalore, Kumbalagodu, Karnataka', 'Bangalore', 'Karnataka', 560074, 'pokjhgfcxc', '4321 2345 6788 7654', '12/90', 3, 77000, 1234);
+(1, 12, 'Kashem', 'kashem@gmail.com', 'Dhaka', 'Dhaka', 'Bangladesh', 560074, 'pokjhgfcxc', '4321 2345 6788 7654', '12/90', 3, 77000, 1234);
 
 -- --------------------------------------------------------
 
@@ -278,13 +278,13 @@ INSERT INTO `products` (`product_id`, `product_cat`, `product_brand`, `product_t
 (10, 2, 6, 'Three Piece', 1500, 'Olive Three Piece', 'ladies3.jpg', 'TWS Earbuds Earphone'),
 (11, 1, 6, 'Mens Half Sleeve Shirt Chocolate', 1800, 'Mens Half Sleeve Shirt Chocolate', 'mens-shirt1.jpg', 'Mens Half Sleeve Shirt Chocolate'),
 (12, 1, 6, 'Mens Full Sleeve Shirt Olive', 2000, 'Mens Full Sleeve Shirt Olive', 'mens-shirt3.jpg', 'Mens Full Sleeve Shirt Olive'),
-(11, 1, 6, 'Mens Half Sleeve Shirt Chocolate', 1400, 'Mens Full Sleeve Shirt Chocolate', 'mens-shirt1.jpg', 'Mens Full Sleeve Shirt Chocolate'),
-(12, 6, 6, 'Cactus Plant', 800, 'Cactues Plant', 'plants1.jpg', 'Plants Cactus'),
-(13, 6, 6, 'Aloevera Plant', 800, 'Aloevera Plant', 'plants2.jpg', 'Plant Aloevera '),
-(14, 3, 6, 'Notebook Set', 400, 'Notebook Set', 'study-mat1.jpg', 'Notebook'),
-(16, 3, 6, 'Notebook', 300, 'Notebook', 'study-mat2.jpg', 'Notebook'),
-(17, 7, 6, 'Samsung Galaxy Note Ultra Pre Owned', 50000, 'Samsung Galaxy Note Ultra', 'used1.jpg', 'Phone Used Pre owned'),
-(18, 7, 6, 'HP Laptop Pre Owned', 30000, 'HP Laptop Pre Owned', 'used2.jpg', 'HP Laptop Pre Owned');
+(13, 1, 6, 'Mens Half Sleeve Shirt Chocolate', 1400, 'Mens Full Sleeve Shirt Chocolate', 'mens-shirt1.jpg', 'Mens Full Sleeve Shirt Chocolate'),
+(14, 6, 6, 'Cactus Plant', 800, 'Cactues Plant', 'plants1.jpg', 'Plants Cactus'),
+(15, 6, 6, 'Aloevera Plant', 800, 'Aloevera Plant', 'plants2.jpg', 'Plant Aloevera '),
+(16, 3, 6, 'Notebook Set', 400, 'Notebook Set', 'study-mat1.jpg', 'Notebook'),
+(17, 3, 6, 'Notebook', 300, 'Notebook', 'study-mat2.jpg', 'Notebook'),
+(18, 7, 6, 'Samsung Galaxy Note Ultra Pre Owned', 50000, 'Samsung Galaxy Note Ultra', 'used1.jpg', 'Phone Used Pre owned'),
+(19, 7, 6, 'HP Laptop Pre Owned', 30000, 'HP Laptop Pre Owned', 'used2.jpg', 'HP Laptop Pre Owned');
 -- (1, 1, 2, 'Samsung galaxy s7 edge', 5000, 'Samsung galaxy s7 edge', 'product07.png', 'samsung mobile electronics'),
 -- (2, 1, 3, 'iPhone 5s', 25000, 'iphone 5s', 'http___pluspng.com_img-png_iphone-hd-png-iphone-apple-png-file-550.png', 'mobile iphone apple'),
 -- (3, 1, 3, 'iPad air 2', 30000, 'ipad apple brand', 'da4371ffa192a115f922b1c0dff88193.png', 'apple ipad tablet'),
@@ -418,18 +418,8 @@ CREATE TABLE `user_info_backup` (
 INSERT INTO `user_info_backup` (`user_id`, `first_name`, `last_name`, `email`, `password`, `mobile`, `address1`, `address2`) VALUES
 (12, 'Robiul Awal', 'Emon', 'emon@gmail.com', 'emon1234', '01609221280', 'Fulbaria', 'Mymensingh'),
 (15, 'Md', 'Huzaifa', 'huzaifa@gmail.com', 'huzaifa1234', '01756334890', 'Muktagaccha', 'Mymensingh'),
-(16, 'Redwanul', 'Karim', 'redwan@gmail.com', 'redwan1234', '01563786459', 'Gazipur', 'Dhaka'),
--- (12, 'puneeth', 'Reddy', 'puneethreddy951@gmail.com', '123456789', '9448121558', '123456789', 'sdcjns,djc'),
--- (14, 'hemanthu', 'reddy', 'hemanthreddy951@gmail.com', '123456788', '6526436723', 's,dc wfjvnvn', 'b efhfhvvbr'),
--- (15, 'hemu', 'ajhgdg', 'keeru@gmail.com', '346778', '536487276', ',mdnbca', 'asdmhmhvbv'),
--- (16, 'venky', 'vs', 'venkey@gmail.com', '1234534', '9877654334', 'snhdgvajfehyfygv', 'asdjbhfkeur'),
--- (19, 'abhishek', 'bs', 'abhishekbs@gmail.com', 'asdcsdcc', '9871236534', 'bangalore', 'hassan'),
--- (20, 'pramod', 'vh', 'pramod@gmail.com', '124335353', '9767645653', 'ksbdfcdf', 'sjrgrevgsib'),
--- (21, 'prajval', 'mcta', 'prajvalmcta@gmail.com', '1234545662', '202-555-01', 'bangalore', 'kumbalagodu'),
--- (22, 'puneeth', 'v', 'hemu@gmail.com', '1234534', '9877654334', 'snhdgvajfehyfygv', 'asdjbhfkeur'),
--- (23, 'hemanth', 'reddy', 'hemanth@gmail.com', 'Puneeth@123', '9876543234', 'Bangalore', 'Kumbalagodu'),
--- (24, 'newuser', 'user', 'newuser@gmail.com', 'puneeth@123', '9535688928', 'Bangalore', 'Kumbalagodu'),
--- (25, 'otheruser', 'user', 'otheruser@gmail.com', 'puneeth@123', '9535688928', 'Bangalore', 'Kumbalagodu');
+(16, 'Redwanul', 'Karim', 'redwan@gmail.com', 'redwan1234', '01563786459', 'Gazipur', 'Dhaka');
+
 
 --
 -- Indexes for dumped tables
