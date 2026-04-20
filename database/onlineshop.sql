@@ -151,9 +151,7 @@ CREATE TABLE `email_info` (
 --
 
 INSERT INTO `email_info` (`email_id`, `email`) VALUES
-(3, 'admin@gmail.com'),
-(4, 'puneethreddy951@gmail.com'),
-(5, 'puneethreddy@gmail.com');
+(3, 'admin@gmail.com');
 
 -- --------------------------------------------------------
 
