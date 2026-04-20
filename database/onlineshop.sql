@@ -381,14 +381,8 @@ CREATE TABLE `user_info` (
 INSERT INTO `user_info` (`user_id`, `first_name`, `last_name`, `email`, `password`, `mobile`, `address1`, `address2`) VALUES
 (12, 'Robiul Awal', 'Emon', 'emon@gmail.com', 'emon1234', '01609221280', 'Fulbaria', 'Mymensingh'),
 (15, 'Md', 'Huzaifa', 'huzaifa@gmail.com', 'huzaifa1234', '01756334890', 'Muktagaccha', 'Mymensingh'),
-(16, 'Redwanul', 'Karim', 'redwan@gmail.com', 'redwan1234', '01563786459', 'Gazipur', 'Dhaka'),
--- (12, 'puneeth', 'Reddy', 'puneethreddy951@gmail.com', 'puneeth', '9448121558', '123456789', 'sdcjns,djc'),
--- (19, 'abhishek', 'bs', 'abhishekbs@gmail.com', 'asdcsdcc', '9871236534', 'bangalore', 'hassan'),
--- (21, 'prajval', 'mcta', 'prajvalmcta@gmail.com', '1234545662', '202-555-01', 'bangalore', 'kumbalagodu'),
--- (22, 'puneeth', 'v', 'hemu@gmail.com', '1234534', '9877654334', 'snhdgvajfehyfygv', 'asdjbhfkeur'),
--- (23, 'hemanth', 'reddy', 'hemanth@gmail.com', 'Puneeth@123', '9876543234', 'Bangalore', 'Kumbalagodu'),
--- (24, 'newuser', 'user', 'newuser@gmail.com', 'puneeth@123', '9535688928', 'Bangalore', 'Kumbalagodu'),
--- (25, 'otheruser', 'user', 'otheruser@gmail.com', 'puneeth@123', '9535688928', 'Bangalore', 'Kumbalagodu');
+(16, 'Redwanul', 'Karim', 'redwan@gmail.com', 'redwan1234', '01563786459', 'Gazipur', 'Dhaka');
+
 --
 --
 -- Triggers `user_info`
