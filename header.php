@@ -123,7 +123,7 @@ session_start();
 				<div class="container">
 					<ul class="header-links pull-left">
 						<li><a href="#"><i class="fa fa-phone"></i> +8801609221280</a></li>
-						<li><a href="#"><i class="fa fa-envelope-o"></i> buddies@gmail.com</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> DIUbuddies@gmail.com</a></li>
 						<li><a href="#"><i class="fa fa-map-marker"></i>Dhaka, Bangladesh</a></li>
 					</ul>
 					<ul class="header-links pull-right">

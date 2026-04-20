@@ -22,6 +22,7 @@ SET time_zone = "+00:00";
 -- Database: `ecommerece`
 --
 
+-- Creates a custom function: getcat(x) which searcher for the x category.
 DELIMITER $$
 --
 -- Procedures
@@ -48,7 +49,7 @@ CREATE TABLE `admin_info` (
 --
 
 INSERT INTO `admin_info` (`admin_id`, `admin_name`, `admin_email`, `admin_password`) VALUES
-(1, 'admin', 'admin@gmail.com', '25f9e794323b453885f5181f1b624d0b');
+(1, 'admin', 'admin@gmail.com', '12334');
 
 -- --------------------------------------------------------
 
